@@ -68,7 +68,7 @@ class _MyKhaliqState extends State<MyKhaliq> {
                         Row(
                           children: [
                             const Text(
-                              "Sales Revenue",
+                              "Sale Revenue",
                               style:
                                   TextStyle(color: Colors.white, fontSize: 23),
                             )
@@ -82,7 +82,7 @@ class _MyKhaliqState extends State<MyKhaliq> {
                                 listname[index].text1,
                                 listname[index].text2,
                                 listname[index].icon,
-                                listname[index].color,
+                                listname[index].colors,
                               );
                             }),
                       ],
